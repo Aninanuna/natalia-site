@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Портфолио путешествий Натальи</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Кофейня "Уютное Утро"</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
 </head>
 <body>
-  <header>
-    <h1>Сайты-приглашения для турагентств</h1>
-    <p>Я помогу вашей турфирме увеличить продажи с помощью ярких и эффективных сайтов-приглашений.</p>
-    <a class="btn" href="#tours">Узнать подробнее</a>
-  </header>
 
-  <section id="block2">
-    <h2>Полный сервис для турагентств</h2>
-    <ul>
-      <li>✅ Сайт-приглашение на тур</li>
-      <li>✅ Настройка на Яндекс.Картах</li>
-      <li>✅ Реклама в Яндекс.Директ</li>
-    </ul>
-    <a class="btn" href="#tours">Заказать пакет</a>
-  </section>
+<nav>
+    <a href="#about">О нас</a>
+    <a href="#menu">Меню</a>
+    <a href="#contact">Контакты</a>
+</nav>
 
-  <section id="tours">
-    <h2>Примеры туров</h2>
-    <div class="tour-card">
-      <img src="anapa.jpg" alt="Анапа" />
-      <p>Анапа</p>
-    </div>
-    <div class="tour-card">
-      <img src="goldring.jpg" alt="Золотое кольцо" />
-      <p>Золотое кольцо</p>
-    </div>
-    <div class="tour-card">
-      <img src="krasnaya.jpg" alt="Красная Поляна" />
-      <p>Красная Поляна</p>
-    </div>
-  </section>
+<header>
+    <h1>Кофейня "Уютное Утро"</h1>
+    <p>Вкус кофе. Тепло утра. Место для вдохновения.</p>
+</header>
 
-  <footer>
-    <h2>Контакты для связи</h2>
-    <p>Телеграм: @Aninanuna</p>
-    <p>VK: <a href="https://vk.com/aninanuna" target="_blank">vk.com/aninanuna</a></p>
-    <p>Телефон: 8 961 000 96 07</p>
-  </footer>
+<section id="about" class="about">
+    <h2>О нас</h2>
+    <p>"Уютное Утро" — это место, где каждый день начинается с аромата свежемолотого кофе и теплой атмосферы. Мы заботимся о каждом госте и готовим напитки с душой.</p>
+</section>
+
+<section id="menu" class="menu">
+    <h2>Наше меню</h2>
+    <p>Попробуйте лучшие сорта кофе и свежую выпечку собственного приготовления!</p>
+    <img src="https://images.unsplash.com/photo-1559628233-0185f8c9fbbf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Капучино" class="menu-img">
+    <br>
+    <button class="order-button" onclick="showThankYou()">Заказать кофе</button>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Контакты</h2>
+    <p>ул. Солнечная, 15, Москва</p>
+    <p>Телефон: +7 (999) 123-45-67</p>
+</section>
+
+<footer>
+    <p>© 2025 Кофейня "Уютное Утро". Все права защищены.</p>
+</footer>
+
+<div class="overlay" id="overlay">
+    <div class="popup">
+        <p>Спасибо за ваш заказ! Мы скоро свяжемся с вами.</p>
+        <button onclick="closeThankYou()">Закрыть</button>
+    </div>
+</div>
+
 </body>
 </html>
