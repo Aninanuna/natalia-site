@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffbee;
+  color: #333;
+  text-align: center;
+}
+header, section, footer {
+  padding: 40px 20px;
+}
+header {
+  background-color: #fff2b2;
+}
+section {
+  background-color: #f9f9f9;
+}
+.tour-card {
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+}
+.tour-card img {
+  width: 100%;
+  border-radius: 12px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #72aaff;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
