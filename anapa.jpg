@@ -1,0 +1,18 @@
+<section id="tours">
+  <h2>Примеры туров</h2>
+
+  <div class="tour-card">
+    <img src="anapa.jpg" alt="Анапа">
+    <p>Анапа</p>
+  </div>
+
+  <div class="tour-card">
+    <img src="goldring.jpg" alt="Золотое кольцо">
+    <p>Золотое кольцо</p>
+  </div>
+
+  <div class="tour-card">
+    <img src="krasnaya.jpg" alt="Красная Поляна">
+    <p>Красная Поляна</p>
+  </div>
+</section>
